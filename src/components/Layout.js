@@ -20,7 +20,8 @@ const Layout = () => {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/blogs">Blogs</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
-              <Nav.Link href="/employee">Employee</Nav.Link>
+              <Nav.Link href="/employee">Employee_function</Nav.Link>
+              <Nav.Link href="/employee_class">Employee_class</Nav.Link>
 
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

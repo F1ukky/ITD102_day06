@@ -16,7 +16,7 @@ const Employee = () => {
             <ul>
                 {data.map((item) => (
                     <li key={item.id}>
-                        {item.name}
+                        {item.name} { " " } {item.position}
                     </li>
                 ))}
             </ul>

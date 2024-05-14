@@ -6,7 +6,8 @@ import Home from "./components/Home";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import NoPage from "./components/NoPage";
-import Employee from "./components/Employee";
+import Employee from "./components/Employee_function";
+import Employee_class from "./components/Employee_class";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="blogs" element={<Blogs />} />
         <Route path="contact" element={<Contact />} />
         <Route path="employee" element={<Employee />} />
+        <Route path="employee_class" element={<Employee_class />} />
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
